@@ -23,3 +23,4 @@ const PORT = process.env.PORT || 4200
 db.sync().then(()=>{
     srv.listen(PORT);
 })
+
